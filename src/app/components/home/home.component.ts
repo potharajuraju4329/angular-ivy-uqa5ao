@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
         if (res.cod == 200) {
           this.weatherDataArray = res.list;
           console.log('res', this.weatherDataArray);
+          
         }
       },
       (error: any) => {
